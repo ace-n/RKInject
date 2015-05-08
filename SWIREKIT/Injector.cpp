@@ -151,6 +151,7 @@ bool injectDLL(DWORD ProcessID) {
 int _tmain(int argc, _TCHAR* argv[])
 {
 	// Inject a DLL into process specified by its PID
+	// Replace "5080" with the PID of the target process
 	injectDLL((DWORD)5080l);
 	return 0;
 }
